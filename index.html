@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>99 verhalen</title>
+    <link rel="stylesheet" type="text/css" href="css/verhalen.css">
+    <link rel="stylesheet" href="js/">
+</head>
+
+<body>
+
+       <header class="show-form">
+        <form action="#">
+            <fieldset>
+                <legend> zoek een leuk verhaal</legend>
+                <input type="text">
+                <input type="submit">
+            </fieldset>
+        </form>
+
+        <button id="zoeken">zoek een verhaal</button>
+
+        <h1>99 verhalen voor onderweg</h1>
+    </header>
+
+   <label for="filterensorteertoggle">Filter en sorteer</label><input type="checkbox" value="" id="filterensorteertoggle"> 
+   
+    <form>
+       <fieldset>
+        <h3>filteren</h3>
+        <select name="datum">
+			<option value="Recent">Recent - oud </option>
+			<option value="Oud">Oud - recent </option>
+		</select> <br /> Waardering: <br />
+        <select name="waardering">
+			<option value="Hoog">Hoog - laag</option>
+			<option value="Laag"> Laag- hoog </option>
+			
+		</select> <br /> Reacties: <br />
+        <select name="Reacties">
+			<option value="alle">Veel - weinig </option>
+			<option value="vrolijk">Weinig - veel </option>
+		</select> 
+        <br />
+        </fieldset>
+        
+        <fieldset>   
+        <h3>genres</h3>
+                <input type="checkbox" name="genres" value="vrolijk"> Vrolijk
+                <input type="checkbox" name="genres" value="verdrietig"> Verdrietig
+                <input type="checkbox" name="genres" value="paranoide"> Paranoide
+                <input type="checkbox" name="genres" value="verward"> Verward
+                <input type="checkbox" name="genres" value="angstig"> Angstig
+                <input type="checkbox" name="genres" value="grappig"> Grappig
+                <input type="checkbox" name="genres" value="spannend"> Spannend
+        </fieldset>
+
+        <input type="submit" value="Zoek verhaal" id="knop">
+    </form>
+
+        <h3 id="intro">Kies hier uit de <strong>99</strong> Verhalen geschreven door Molovich.</h3>
+  
+
+    <section class='overzicht'>
+        <h2>Populaire verhalen</h2>
+        <article class="verhaaltjes">
+            <img src="foto's/foto%20kikker.png" alt="kikker" class="kikker">
+            <hr>
+            <h3> 79. Doof </h3>
+            <h4>2 juni 2011</h4>
+            <a href="" class="knop">Nu lezen</a>
+            <button></button>
+        </article>
+
+        <article class="verhaaltjes">
+            <img src="foto's/foto%20kikker.png" alt="kikker" class="kikker">
+            <hr>
+            <h3> 98. Beroemd </h3>
+            <h4>11 juli 2011</h4>
+            <a href="" class="knop">Nu lezen</a>
+            <button></button>
+        </article>
+    </section>
+
+
+    <section class='overzicht'>
+        <h2>Aanbevolen</h2>
+        <article class="verhaaltjes">
+            <img src="foto's/foto%20kikker.png" alt="kikker" class="kikker">
+            <hr>
+            <h3> 99. Verrassing </h3>
+            <h4>12 juli 2011</h4>
+            <a href="" class="knop">Nu lezen</a>
+         <button></button>
+        </article>
+
+        <article class="verhaaltjes">
+            <img src="foto's/foto%20kikker.png" alt="kikker" class="kikker">
+            <hr>
+            <h3> 10. Verliefd </h3>
+            <h4>14 februari 2011</h4>
+            <a href="" class="knop">Nu lezen</a>
+            <button id="like"></button>
+        </article>
+    </section>
+
+
+</body>
+</html>
